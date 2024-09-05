@@ -1,0 +1,90 @@
+The `load_in_4bit` and `load_in_8bit` arguments are deprecated and will be removed in the future versions. Please, pass a `BitsAndBytesConfig` object in `quantization_config` argument instead.
+`low_cpu_mem_usage` was None, now set to True since model is quantized.
+The token has not been saved to the git credentials helper. Pass `add_to_git_credential=True` in this function directly or `--add-to-git-credential` if using via `huggingface-cli` if you want to set the git credential as well.
+Token is valid (permission: write).
+Your token has been saved to /home/cap6411.student4/.cache/huggingface/token
+Login successful
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:30<00:30, 30.53s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:45<00:00, 21.53s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:45<00:00, 22.88s/it]
+We detected that you are passing `past_key_values` as a tuple and this is deprecated and will be removed in v4.43. Please use an appropriate `Cache` class (https://huggingface.co/docs/transformers/v4.41.3/en/internal/generation_utils#transformers.Cache)
+/home/cap6411.student4/anaconda3/envs/mistra/lib/python3.10/site-packages/bitsandbytes/nn/modules.py:435: UserWarning: Input type into Linear4bit is torch.float16, but bnb_4bit_compute_dtype=torch.float32 (default). This will lead to slow inference or training speed.
+  warnings.warn(
+Average accuracy 0.182 - abstract_algebra
+Average accuracy 0.071 - anatomy
+Average accuracy 0.312 - astronomy
+Average accuracy 0.545 - business_ethics
+Average accuracy 0.069 - clinical_knowledge
+Average accuracy 0.125 - college_biology
+Average accuracy 0.250 - college_chemistry
+Average accuracy 0.364 - college_computer_science
+Average accuracy 0.364 - college_mathematics
+Average accuracy 0.182 - college_medicine
+Average accuracy 0.091 - college_physics
+Average accuracy 0.182 - computer_security
+Average accuracy 0.269 - conceptual_physics
+Average accuracy 0.250 - econometrics
+Average accuracy 0.375 - electrical_engineering
+Average accuracy 0.293 - elementary_mathematics
+Average accuracy 0.286 - formal_logic
+Average accuracy 0.100 - global_facts
+Average accuracy 0.156 - high_school_biology
+Average accuracy 0.364 - high_school_chemistry
+Average accuracy 0.333 - high_school_computer_science
+Average accuracy 0.333 - high_school_european_history
+Average accuracy 0.182 - high_school_geography
+Average accuracy 0.476 - high_school_government_and_politics
+Average accuracy 0.186 - high_school_macroeconomics
+Average accuracy 0.414 - high_school_mathematics
+Average accuracy 0.192 - high_school_microeconomics
+Average accuracy 0.235 - high_school_physics
+Average accuracy 0.150 - high_school_psychology
+Average accuracy 0.348 - high_school_statistics
+Average accuracy 0.136 - high_school_us_history
+Average accuracy 0.308 - high_school_world_history
+Average accuracy 0.261 - human_aging
+Average accuracy 0.417 - human_sexuality
+Average accuracy 0.077 - international_law
+Average accuracy 0.273 - jurisprudence
+Average accuracy 0.278 - logical_fallacies
+Average accuracy 0.273 - machine_learning
+Average accuracy 0.182 - management
+Average accuracy 0.240 - marketing
+Average accuracy 0.273 - medical_genetics
+Average accuracy 0.256 - miscellaneous
+Average accuracy 0.158 - moral_disputes
+Average accuracy 0.240 - moral_scenarios
+Average accuracy 0.242 - nutrition
+Average accuracy 0.294 - philosophy
+Average accuracy 0.171 - prehistory
+Average accuracy 0.355 - professional_accounting
+Average accuracy 0.235 - professional_law
+Average accuracy 0.194 - professional_medicine
+Average accuracy 0.261 - professional_psychology
+Average accuracy 0.167 - public_relations
+Average accuracy 0.296 - security_studies
+Average accuracy 0.318 - sociology
+Average accuracy 0.273 - us_foreign_policy
+Average accuracy 0.333 - virology
+Average accuracy 0.474 - world_religions
+Average accuracy 0.330 - math
+Average accuracy 0.199 - health
+Average accuracy 0.243 - physics
+Average accuracy 0.298 - business
+Average accuracy 0.146 - biology
+Average accuracy 0.333 - chemistry
+Average accuracy 0.286 - computer science
+Average accuracy 0.198 - economics
+Average accuracy 0.375 - engineering
+Average accuracy 0.260 - philosophy
+Average accuracy 0.268 - other
+Average accuracy 0.228 - history
+Average accuracy 0.182 - geography
+Average accuracy 0.324 - politics
+Average accuracy 0.209 - psychology
+Average accuracy 0.353 - culture
+Average accuracy 0.227 - law
+Average accuracy 0.280 - STEM
+Average accuracy 0.241 - humanities
+Average accuracy 0.243 - social sciences
+Average accuracy 0.237 - other (business, health, misc.)
+Average accuracy: 0.249
+Time taken: 1189.04 seconds

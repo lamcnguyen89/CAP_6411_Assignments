@@ -165,3 +165,42 @@ cython_debug/
 data/
 .tar
 .tar.gz
+
+# Large files and models (common ML/AI file types)
+*.pth
+*.pt
+*.h5
+*.hdf5
+*.ckpt
+*.pkl
+*.pickle
+*.bin
+*.safetensors
+*.onnx
+*.tflite
+*.pb
+
+# Large media files
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.flv
+*.wmv
+*.wav
+*.mp3
+*.flac
+*.aac
+
+# Large compressed files
+*.zip
+*.rar
+*.7z
+*.bz2
+*.xz
+
+# Large datasets
+*.csv
+*.json
+*.parquet
+*.feather

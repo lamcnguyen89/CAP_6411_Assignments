@@ -162,9 +162,11 @@ cython_debug/
 #.idea/
 
 # Ignore Data file:
-data/
-.tar
-.tar.gz
+**/data/
+**/dataset/
+**/datasets/
+*.tar
+*.tar.gz
 
 # Large files and models (common ML/AI file types)
 *.pth

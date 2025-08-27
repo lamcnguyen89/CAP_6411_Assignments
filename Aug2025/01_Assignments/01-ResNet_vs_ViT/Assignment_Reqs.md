@@ -1,5 +1,7 @@
 # Assignment 01: ResNet vs ViT
 
+Source: https://www.kaggle.com/code/sjadi2k1/vit-vs-resnet
+
 Available: Aug 19, 2025 4:30pm until Aug 28, 2025 11:59pm
 Train on Human Action Recognition (40%) https://www.kaggle.com/datasets/shashankrapolu/human-Links to an external site.action-recognition-dataset/dataLinks to an external site.​
 Evaluation on test set human-action-recognition​

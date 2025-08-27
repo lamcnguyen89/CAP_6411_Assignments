@@ -165,6 +165,9 @@ cython_debug/
 **/data/
 **/dataset/
 **/datasets/
+**/checkpoints/
+**/checkpoint/
+**/logs/
 *.tar
 *.tar.gz
 

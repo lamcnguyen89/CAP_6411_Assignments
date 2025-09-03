@@ -36,6 +36,7 @@ python-dotenv>=0.19.0
 
 # Hugging Face Integration (Optional)
 huggingface-hub>=0.16.0
+transformers>=4.21.0
 
 # System and File Operations
 # os, time, collections, datetime are built-in Python modules

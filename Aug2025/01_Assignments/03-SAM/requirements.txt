@@ -1,0 +1,54 @@
+# Requirements for CAP6411 Assignment 02: Object Detection
+# Comparing Faster R-CNN, DETR, DINO, and Grounding DINO
+
+# Core ML/DL Frameworks
+torch
+torchvision
+torchaudio
+
+# Vision Transformer and Model Zoo
+timm
+
+# Data Processing and Visualization
+numpy
+pandas
+matplotlib
+seaborn
+opencv-python
+Pillow
+
+# Object Detection and COCO Evaluation
+pycocotools
+
+# System Monitoring and Performance
+psutil
+
+# Machine Learning Utilities
+scikit-learn
+
+# Tensor Operations
+einops
+
+# Development and Jupyter
+jupyter
+ipykernel
+tqdm
+
+# Model Information and Summary
+torchinfo
+
+# Environment and Configuration
+python-dotenv
+
+# Hugging Face Integration (Required for object detection models)
+huggingface-hub
+transformers
+
+# System and File Operations
+# os, time, collections, datetime are built-in Python modules
+
+# GPU Support (automatically installed with torch if CUDA available)
+# No additional CUDA packages needed if using conda/pip with CUDA support
+
+# Note: This requirements.txt is designed for conda/pip installation
+# For conda-specific installation, you may also create environment.yml

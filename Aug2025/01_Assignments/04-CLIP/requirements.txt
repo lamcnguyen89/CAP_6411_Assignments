@@ -1,5 +1,5 @@
-# Requirements for CAP6411 Assignment 02: Object Detection
-# Comparing Faster R-CNN, DETR, DINO, and Grounding DINO
+# Requirements for CAP6411 Assignment 04: CLIP
+# CLIP and SigLIP for Human Action Recognition
 
 # Core ML/DL Frameworks
 torch
@@ -17,7 +17,7 @@ seaborn
 opencv-python
 Pillow
 
-# Object Detection and COCO Evaluation
+# Object Detection and COCO Evaluation (Legacy from previous assignments)
 pycocotools
 
 # System Monitoring and Performance
@@ -40,9 +40,15 @@ torchinfo
 # Environment and Configuration
 python-dotenv
 
-# Hugging Face Integration (Required for object detection models)
+# Hugging Face Integration (Required for CLIP and SigLIP models)
 huggingface-hub
 transformers
+
+# HTTP Requests for downloading images and model assets
+requests
+
+# Additional dependencies for CLIP/SigLIP fine-tuning
+accelerate
 
 # System and File Operations
 # os, time, collections, datetime are built-in Python modules

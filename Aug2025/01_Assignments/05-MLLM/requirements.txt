@@ -43,6 +43,7 @@ python-dotenv
 # Hugging Face Integration (Required for CLIP and SigLIP models)
 huggingface-hub
 transformers
+datasets
 
 # HTTP Requests for downloading images and model assets
 requests

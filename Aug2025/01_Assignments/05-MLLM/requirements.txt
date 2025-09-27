@@ -46,6 +46,7 @@ transformers
 datasets
 flash-attn
 peft
+wandb
 
 # HTTP Requests for downloading images and model assets
 requests

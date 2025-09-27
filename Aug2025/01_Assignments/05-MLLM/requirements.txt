@@ -44,6 +44,8 @@ python-dotenv
 huggingface-hub
 transformers
 datasets
+flash-attn
+peft
 
 # HTTP Requests for downloading images and model assets
 requests

@@ -47,6 +47,7 @@ datasets
 flash-attn
 peft
 wandb
+diffusers
 
 # HTTP Requests for downloading images and model assets
 requests

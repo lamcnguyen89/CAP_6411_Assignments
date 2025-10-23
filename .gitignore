@@ -209,3 +209,6 @@ cython_debug/
 *.json
 *.parquet
 *.feather
+
+# WAN 2.1 model repository
+**/Wan2.1/

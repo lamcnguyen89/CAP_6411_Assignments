@@ -68,3 +68,6 @@ accelerate
 # Stable Diffusion & FID calculation
 scipy
 pytorch-fid
+
+# WAN 2.1 specific dependencies
+poetry

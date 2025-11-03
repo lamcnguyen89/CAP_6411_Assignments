@@ -1,0 +1,13 @@
+============================================================
+FVD CALCULATION RESULTS
+============================================================
+Date: 2025-11-03 16:30:37
+Number of videos compared: 7
+Video dimensions (CxTxHxW): 3x91x480x832
+Number of frames per video: 91
+
+Fréchet Video Distance (FVD): 0.3123
+
+Ground Truth: WAN 2.1 T2V-1.3B
+Prediction: Framepack (HunyuanVideo)
+============================================================
